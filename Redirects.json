@@ -1,0 +1,548 @@
+{
+    "redirects": [
+        {
+            "description": "force https solidfiles.com",
+            "exampleUrl": "http://www.solidfiles.com/example",
+            "exampleResult": "https://www.solidfiles.com/example",
+            "error": null,
+            "includePattern": "http://www.solidfiles.com/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://www.solidfiles.com/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "force https ru-board.com",
+            "exampleUrl": "http://forum.ru-board.com/example",
+            "exampleResult": "https://forum.ru-board.com/example",
+            "error": null,
+            "includePattern": "http://*.ru-board.com/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://$1.ru-board.com/$2",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "1c shop",
+            "exampleUrl": "http://online.1c.ru/example",
+            "exampleResult": "https://online.1c.ru/example",
+            "error": null,
+            "includePattern": "http://online.1c.ru/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://online.1c.ru/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "force https opennet",
+            "exampleUrl": "http://www.opennet.ru/example",
+            "exampleResult": "https://www.opennet.ru/example",
+            "error": null,
+            "includePattern": "http://*.opennet.ru/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://$1.opennet.ru/$2",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "force https arhivach.tk",
+            "exampleUrl": "http://arhivach.tk/example",
+            "exampleResult": "https://arhivach.tk/example",
+            "error": null,
+            "includePattern": "http://arhivach.tk/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://arhivach.tk/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "force https arhivach.cf",
+            "exampleUrl": "http://arhivach.cf/example",
+            "exampleResult": "https://arhivach.cf/example",
+            "error": null,
+            "includePattern": "http://arhivach.cf/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://arhivach.cf/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "force https js.do",
+            "exampleUrl": "http://js.do/example",
+            "exampleResult": "https://js.do/example",
+            "error": null,
+            "includePattern": "http://js.do/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://js.do/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "force https privoxy",
+            "exampleUrl": "http://www.privoxy.org/",
+            "exampleResult": "https://www.privoxy.org/",
+            "error": null,
+            "includePattern": "http://www.privoxy.org/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://www.privoxy.org/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "force https telerik",
+            "exampleUrl": "http://telerik.com/example",
+            "exampleResult": "https://telerik.com/example",
+            "error": null,
+            "includePattern": "http://telerik.com/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://telerik.com/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "force https telerik (subdomains)",
+            "exampleUrl": "http://example.telerik.com/example",
+            "exampleResult": "https://example.telerik.com/example",
+            "error": null,
+            "includePattern": "http://*.telerik.com/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://$1.telerik.com/$2",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "force https ikea",
+            "exampleUrl": "http://www.ikea.com/example",
+            "exampleResult": "https://www.ikea.com/example",
+            "error": null,
+            "includePattern": "http://www.ikea.com/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://www.ikea.com/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "force https emu-land",
+            "exampleUrl": "http://www.emu-land.net/example",
+            "exampleResult": "https://www.emu-land.net/example",
+            "error": null,
+            "includePattern": "http://www.emu-land.net/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://www.emu-land.net/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "force https line",
+            "exampleUrl": "http://line.me/example",
+            "exampleResult": "https://line.me/example",
+            "error": null,
+            "includePattern": "http://line.me/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://line.me/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "force mobile theme 4chan",
+            "exampleUrl": "https://s.4cdn.org/css/yotsubluemobile.674.css",
+            "exampleResult": "https://s.4cdn.org/css/futabanew.674.css",
+            "error": null,
+            "includePattern": "https://s.4cdn.org/css/yotsubluemobile.*.css",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://s.4cdn.org/css/futabanew.$1.css",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "stylesheet"
+            ]
+        },
+        {
+            "description": "force theme 4chan",
+            "exampleUrl": "https://s.4cdn.org/css/yotsubluenew.674.css",
+            "exampleResult": "https://s.4cdn.org/css/futabanew.674.css",
+            "error": null,
+            "includePattern": "https://s.4cdn.org/css/yotsubluenew.*.css",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://s.4cdn.org/css/futabanew.$1.css",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "stylesheet"
+            ]
+        },
+        {
+            "description": "force https dev-account.asus.com",
+            "exampleUrl": "http://dev-account.asus.com/example",
+            "exampleResult": "https://dev-account.asus.com/example",
+            "error": null,
+            "includePattern": "http://dev-account.asus.com/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://dev-account.asus.com/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "force https rutracker.org (main)",
+            "exampleUrl": "http://rutracker.org",
+            "exampleResult": "https://rutracker.org",
+            "error": null,
+            "includePattern": "http://rutracker.org",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://rutracker.org",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "force https rutracker.org",
+            "exampleUrl": "http://rutracker.org/example",
+            "exampleResult": "https://rutracker.org/example",
+            "error": null,
+            "includePattern": "http://rutracker.org/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://rutracker.org/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "force https animetorrents.me",
+            "exampleUrl": "http://animetorrents.me/example",
+            "exampleResult": "https://animetorrents.me/example",
+            "error": null,
+            "includePattern": "http://animetorrents.me/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://animetorrents.me/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "force https animetorrents.me (main)",
+            "exampleUrl": "http://animetorrents.me",
+            "exampleResult": "https://animetorrents.me",
+            "error": null,
+            "includePattern": "http://animetorrents.me",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://animetorrents.me",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "force https nowere.net",
+            "exampleUrl": "http://nowere.net/example",
+            "exampleResult": "https://nowere.net/example",
+            "error": null,
+            "includePattern": "http://nowere.net/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://nowere.net/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "force https 410chan.org",
+            "exampleUrl": "http://410chan.org/example",
+            "exampleResult": "https://410chan.org/example",
+            "error": null,
+            "includePattern": "http://410chan.org/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://410chan.org/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "force https abload.de",
+            "exampleUrl": "http://abload.de/example",
+            "exampleResult": "https://abload.de/example",
+            "error": null,
+            "includePattern": "http://abload.de/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://abload.de/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "force https safebooru",
+            "exampleUrl": "http://safebooru.org/example",
+            "exampleResult": "https://safebooru.org/example",
+            "error": null,
+            "includePattern": "http://safebooru.org/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://safebooru.org/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "force https www.securitylab.ru",
+            "exampleUrl": "http://www.securitylab.ru/example/",
+            "exampleResult": "https://www.securitylab.ru/example/",
+            "error": null,
+            "includePattern": "http://www.securitylab.ru/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://www.securitylab.ru/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "force https livejournal",
+            "exampleUrl": "http://example.livejournal.com/example",
+            "exampleResult": "https://example.livejournal.com/example",
+            "error": null,
+            "includePattern": "http://*.livejournal.com/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://$1.livejournal.com/$2",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "force https livejournal (main)",
+            "exampleUrl": "http://livejournal.com/example",
+            "exampleResult": "https://livejournal.com/example",
+            "error": null,
+            "includePattern": "http://livejournal.com/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://livejournal.com/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "force https: www.ebay.com (main)",
+            "exampleUrl": "http://www.ebay.com",
+            "exampleResult": "https://www.ebay.com",
+            "error": null,
+            "includePattern": "http://www.ebay.com",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://www.ebay.com",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "force https www.ebay.com",
+            "exampleUrl": "http://www.ebay.com/example",
+            "exampleResult": "https://www.ebay.com/example",
+            "error": null,
+            "includePattern": "http://www.ebay.com/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://www.ebay.com/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "force https: iichan.hk",
+            "exampleUrl": "http://iichan.hk/example",
+            "exampleResult": "https://iichan.hk/example",
+            "error": null,
+            "includePattern": "http://iichan.hk/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://iichan.hk/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "force https 4chan",
+            "exampleUrl": "http://4chan.org/example",
+            "exampleResult": "https://4chan.org/example",
+            "error": null,
+            "includePattern": "http://4chan.org/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://4chan.org/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "force https 4channel.org",
+            "exampleUrl": "http://4channel.org/example",
+            "exampleResult": "https://4channel.org/example",
+            "error": null,
+            "includePattern": "http://4channel.org/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://4channel.org/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "force https 4chan.org (sub)",
+            "exampleUrl": "http://example.4chan.org/example",
+            "exampleResult": "https://example.4chan.org/example",
+            "error": null,
+            "includePattern": "http://*.4chan.org/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://$1.4chan.org/$2",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "force https 4channel.org (sub)",
+            "exampleUrl": "http://example.4channel.org/example",
+            "exampleResult": "https://example.4channel.org/example",
+            "error": null,
+            "includePattern": "http://*.4channel.org/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://$1.4channel.org/$2",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        }
+    ]
+}
