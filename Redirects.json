@@ -1,6 +1,22 @@
 {
     "redirects": [
         {
+            "description": "force https 4pda.ru",
+            "exampleUrl": "http://4pda.ru/example",
+            "exampleResult": "https://4pda.ru/example",
+            "error": null,
+            "includePattern": "http://4pda.ru/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://4pda.ru/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
             "description": "force https solidfiles.com",
             "exampleUrl": "http://www.solidfiles.com/example",
             "exampleResult": "https://www.solidfiles.com/example",
